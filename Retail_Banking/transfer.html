@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Funds Transfer</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="logo">
+
+🏦 Retail Banking
+
+</div>
+
+<div class="user">
+
+Funds Transfer
+
+</div>
+
+</div>
+
+<div class="wrapper">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2>Internet Banking</h2>
+
+<ul>
+
+<li><a href="dashboard.html">🏠 Dashboard</a></li>
+
+<li><a href="beneficiaries.html">👥 Beneficiaries</a></li>
+
+<li><a href="transfer.html">💸 Funds Transfer</a></li>
+
+<li><a href="logout.html">🚪 Logout</a></li>
+
+</ul>
+
+</div>
+
+<!-- Main Content -->
+
+<div class="main">
+
+<div class="form-box">
+
+<h2>Funds Transfer</h2>
+
+<form action="transfer-status.html">
+
+<div class="form-grid">
+
+<div>
+
+<label>From Account</label>
+
+<select required>
+
+<option value="">Select Account</option>
+
+<option>Savings Account - XXXX4589</option>
+
+<option>Current Account - XXXX6721</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Transfer Type</label>
+
+<select required>
+
+<option value="">Select Transfer Type</option>
+
+<option>NEFT</option>
+
+<option>RTGS</option>
+
+<option>IMPS</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Beneficiary Name</label>
+
+<select required>
+
+<option value="">Select Beneficiary</option>
+
+<option>Rahul Sharma</option>
+
+<option>Priya Reddy</option>
+
+<option>Suresh Kumar</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Amount (₹)</label>
+
+<input
+type="number"
+placeholder="Enter Amount"
+min="1"
+required>
+
+</div>
+
+<div>
+
+<label>Transfer Date</label>
+
+<input
+type="date"
+required>
+
+</div>
+
+<div>
+
+<label>Purpose</label>
+
+<select required>
+
+<option value="">Select Purpose</option>
+
+<option>Family Support</option>
+
+<option>Personal</option>
+
+<option>Business</option>
+
+<option>Education</option>
+
+<option>Medical</option>
+<option>Other</option>
+
+</select>
+
+</div>
+
+<div class="full">
+
+<label>Remarks</label>
+
+<textarea
+rows="3"
+placeholder="Enter Remarks (Optional)"></textarea>
+
+</div>
+
+<div class="full">
+
+<button type="submit">
+
+Transfer Funds
+
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

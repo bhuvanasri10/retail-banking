@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Login</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="logo">
+            🏦 Retail Banking
+        </div>
+
+        <div class="user">
+            Internet Banking Login
+        </div>
+
+    </div>
+
+    <div class="login-box">
+
+        <h2>Customer Login</h2>
+
+        <form action="dashboard.html">
+
+            <label for="customerid">
+                Customer ID
+            </label>
+
+            <input
+                type="text"
+                id="customerid"
+                name="customerid"
+                placeholder="Enter Customer ID"
+                required>
+
+            <label for="password">
+                Password
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Password"
+                minlength="6"
+                required>
+
+            <label for="account">
+                Account Type
+            </label>
+
+            <select
+                id="account"
+                name="account"
+                required>
+
+                <option value="">
+                    Select Account
+                </option>
+
+                <option>
+                    Savings Account
+                </option>
+
+                <option>
+                    Current Account
+                </option>
+
+            </select>
+
+            <button type="submit">
+                Login
+            </button>
+
+            <button type="reset">
+                Clear
+            </button>
+
+        </form>
+
+        <div class="note">
+
+            <strong>Security Tips</strong>
+
+            <br><br>
+
+            • Never share your Internet Banking password.
+
+            <br>
+
+            • Always verify beneficiary details before transferring money.
+
+            <br>
+
+            • Logout after completing your banking session.
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        © 2026 Retail Banking Application
+
+    </footer>
+
+</body>
+
+</html>

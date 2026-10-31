@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Beneficiaries</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="logo">
+
+🏦 Retail Banking
+
+</div>
+
+<div class="user">
+
+Beneficiary Management
+
+</div>
+
+</div>
+
+<div class="wrapper">
+
+<div class="sidebar">
+
+<h2>Internet Banking</h2>
+
+<ul>
+
+<li><a href="dashboard.html">🏠 Dashboard</a></li>
+
+<li><a href="beneficiaries.html">👥 Beneficiaries</a></li>
+
+<li><a href="transfer.html">💸 Funds Transfer</a></li>
+
+<li><a href="logout.html">🚪 Logout</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="table-box">
+
+<h2>Existing Beneficiaries</h2>
+
+<table>
+
+<tr>
+
+<th>Name</th>
+
+<th>Bank</th>
+
+<th>Account Number</th>
+
+<th>Status</th>
+
+</tr>
+
+<tr>
+
+<td>Rahul Sharma</td>
+
+<td>State Bank of India</td>
+
+<td>XXXX4589</td>
+
+<td>Active</td>
+
+</tr>
+
+<tr>
+
+<td>Priya Reddy</td>
+
+<td>HDFC Bank</td>
+
+<td>XXXX7821</td>
+
+<td>Active</td>
+
+</tr>
+
+<tr>
+
+<td>Suresh Kumar</td>
+
+<td>ICICI Bank</td>
+
+<td>XXXX9634</td>
+
+<td>Active</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<br>
+
+<div class="form-box">
+
+<h2>Add New Beneficiary</h2>
+
+<form action="transfer.html">
+
+<div class="form-grid">
+
+<div>
+
+<label>Beneficiary Name</label>
+
+<input
+type="text"
+placeholder="Enter Beneficiary Name"
+required>
+
+</div>
+
+<div>
+
+<label>Account Number</label>
+
+<input
+type="text"
+placeholder="Enter Account Number"
+pattern="[0-9]{10,18}"
+required>
+
+</div>
+
+<div>
+
+<label>Confirm Account Number</label>
+
+<input
+type="text"
+placeholder="Re-enter Account Number"
+pattern="[0-9]{10,18}"
+required>
+
+</div>
+
+<div>
+
+<label>IFSC Code</label>
+
+<input
+type="text"
+placeholder="SBIN0001234"
+required>
+
+</div>
+
+<div>
+
+<label>Bank Name</label>
+
+<input
+type="text"
+placeholder="Enter Bank Name"
+required>
+
+</div>
+
+<div>
+
+<label>Branch Name</label>
+
+<input
+type="text"
+placeholder="Enter Branch"
+required>
+
+</div>
+
+<div>
+
+<label>Mobile Number</label>
+
+<input
+type="tel"
+placeholder="10 Digit Mobile Number"
+pattern="[0-9]{10}"
+required>
+
+</div>
+
+<div>
+
+<label>Email Address</label>
+
+<input
+type="email"
+placeholder="example@gmail.com"
+required>
+
+</div>
+
+<div>
+
+<label>Account Type</label>
+
+<select required>
+
+<option value="">Select</option>
+
+<option>Savings</option>
+
+<option>Current</option>
+
+</select>
+
+</div>
+
+<div>
+
+<label>Nickname</label>
+
+<input
+type="text"
+placeholder="Optional Name">
+
+</div>
+
+<div class="full">
+
+<label>Address</label>
+
+<textarea
+rows="3"
+placeholder="Enter Complete Address"
+required></textarea>
+
+</div>
+
+<div class="full">
+
+<button type="submit">
+
+Add Beneficiary
+
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
